@@ -1,24 +1,44 @@
 # 🧒📚 Snap-a-Tale - Snap a picture, get a tale!
 
- <p> 🦊 Snapster the Fox, A clever little fox with a camera around his neck and a scroll in his paw.</p>
-  <ul style="list-style-type: none; padding: 0; margin: 0;">
-      <li>📸 Upload an image</li>
-      <li>📝 Get a Story, Notes, Questions and Answers</li> 
-  </ul>
-  
+![Snapster](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s1.jpg?raw=true) 
+
+**SnapTale** is an open-source AI vision interface that combines Gradio and Mistral-Small-3.1-24B-Instruct-2503 to transform visual inputs into insightful, structured responses. Built for developers and researchers, SnapTale allows you to upload an image and receive intelligent interpretations using cutting-edge multimodal AI models.
+
+![Upload Image ](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s2.jpg?raw=true)
+
+![Supply Nebius API KEY](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s3.jpg?raw=true)
+
+![Generated Story](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s4.jpg?raw=true)
+
+![Generated Note](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s5.jpg?raw=true)
+
+![Generate QnA](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s6.jpg?raw=true)
+
 ---
 
-## 📊 Features
+## 🚀 Features
 
-✅ Simple GUI built with Python
+📸 Image Upload & Analysis: Easily upload images via an intuitive Gradio UI.
 
-✅ Modular code structure (`app.py`, `main_ui.py`, `utils.py`) 
+🧠 Powered by Mistral AI: Leverages the Mistral-Small-3.1-24B-Instruct-2503 model for high-quality instruction-following and visual understanding.
 
-✅ Easily extendable and customizable 
+⚡ Fast, Local or Remote Inference: Supports local and remote model inference (e.g., via Hugging Face endpoints, Nebius or vLLM).
 
-✅ Lightweight and fast  
+🌐 Web Interface: Clean, interactive UI using Gradio.
 
-✅ Modular and extensible for production use  
+🔧 Modular Architecture: Organized into app.py, main_ui.py, and utils.py for easy customization and extension.
+
+--- 
+
+## 🛠️ Tech Stack
+
+Python 3.10+
+
+Gradio for front-end interface
+
+mistralai/Mistral-Small-3.1-24B-Instruct-2503 for model inference
+
+Hugging Face Transformers or vLLM for model deployment
 
 ---
 
@@ -26,7 +46,7 @@
 
 ### Prerequisites
 
-- Nebius Vision API, https://studio.nebius.com/
+- Nebius Vision API Key, https://studio.nebius.com/
 - Python 3.7+ 
 
 ### Clone the Repository
