@@ -30,6 +30,18 @@
 
 --- 
 
+## ✨ Why SnapTale?
+
+Saves Time: Get powerful summaries without reading the entire book.
+
+Simple Interface: Designed for ease of use with a clean and modern GUI.
+
+Smart Summarization: Leverages advanced NLP to retain the essence of the content.
+
+Offline Ready: No internet? No problem. Works offline once set up.
+
+---
+
 ## 🛠️ Tech Stack
 
 Python 3.10+
@@ -75,5 +87,5 @@ python app.py or gradio app.py
 
 🙌 Acknowledgments
 
-Built with ❤️ by Rahul Dongre
+Built with ❤️ using Python, SnapTale is open-source and ready to grow with the community. Contributions, feedback, and new ideas are always welcome. 
 Inspired by open-source stacks worldwide.
