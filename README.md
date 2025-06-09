@@ -4,13 +4,23 @@
 
 **SnapTale** is an open-source AI vision interface that combines Gradio and Mistral-Small-3.1-24B-Instruct-2503 to transform visual inputs into insightful, structured responses. Built for developers and researchers, SnapTale allows you to upload an image and receive intelligent interpretations using cutting-edge multimodal AI models.
 
+Upload Image for story
+
 ![Upload Image ](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s2.jpg?raw=true)
+
+Nebius Vision API KEY
 
 ![Supply Nebius API KEY](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s3.jpg?raw=true)
 
+Generated Story
+
 ![Generated Story](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s4.jpg?raw=true)
 
+Generated Note
+
 ![Generated Note](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s5.jpg?raw=true)
+
+Generated Questions and Answers
 
 ![Generate QnA](https://github.com/rahuldongre-us/snaptale/blob/main/assets/s6.jpg?raw=true)
 
