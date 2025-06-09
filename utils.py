@@ -74,10 +74,10 @@ class CommonUtils:
             logging.info(f"[process_story_teller]")
 
             if not CommonUtils.validate_api_key(api_key):
-                return "Invalid API key. Please check your credentials." 
+                return ("Invalid API key. Please check your credentials.", "", "")
             
             if not CommonUtils.validate_image(image_data):
-                return "Please upload image first."
+                return ("Please upload image first.", "", "")
             else:
                 base64_image = CommonUtils.convert_image_to_base64(image_data)
                 vision_model_name = "mistralai/Mistral-Small-3.1-24B-Instruct-2503"
